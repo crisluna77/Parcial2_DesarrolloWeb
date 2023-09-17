@@ -1,0 +1,91 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-top: 20px;
+  font-size: 36px; /* Tamaño aumentado del título */
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  display: block;
+  margin-top: 15px; /* Espacio ligeramente reducido entre etiquetas */
+}
+
+input[type="number"] {
+  width: 150px; /* Ancho aumentado del campo de entrada */
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #007bff; /* Borde más visible */
+  border-radius: 10px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 18px; /* Tamaño de fuente aumentado */
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 20px; /* Tamaño de fuente aumentado */
+  cursor: pointer;
+  margin-top: 20px; /* Espacio aumentado entre botones */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  font-size: 28px; /* Tamaño aumentado del resultado */
+  color: #007bff;
+  margin-top: 20px;
+}
+
+#resultado {
+  font-weight: bold;
+  font-size: 36px; /* Tamaño aumentado del resultado */
+  color: #007bff;
+  display: block;
+  margin-top: 20px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  flex-direction: column-reverse;
+  list-style: none;
+  padding: 0;
+  justify-content: center; /* Centra verticalmente los elementos de la lista */
+  align-items: center; /* Centra horizontalmente los elementos de la lista */
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 24px; /* Tamaño de fuente aumentado para elementos de lista */
+}
+
+a {
+  text-decoration: none;
+  color: #e80d3c;
+  transition: color 0.3s;
+  font-size: 28px; /* Tamaño de fuente aumentado para enlaces */
+}
+
+a:hover {
+  color: #0056b3;
+}

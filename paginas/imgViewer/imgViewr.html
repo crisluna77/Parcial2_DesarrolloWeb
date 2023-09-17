@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="imgViewragg.js"></script>
+  <title>Galería de Imágenes</title>
+  <style>
+    /* Estilo para la galería */
+    #galeria {
+      display: flex;
+      flex-wrap: wrap; /* Permite que las imágenes se envuelvan a la siguiente línea cuando no haya espacio en la fila */
+    }
+  </style>
+</head>
+<body>
+  <h1>Galería de Imágenes</h1>
+
+  <!-- Input para cargar imágenes -->
+  <input type="file" id="inputImagenes" accept="image/*" multiple style="display: none;">
+  
+  <!-- Botones -->
+  <div id="botones"></div>
+  
+  <!-- Galería de imágenes -->
+  <div id="galeria"></div>
+
+  <a href="/index.html" style="position: fixed; bottom: 10px; left: 10px; background-color: #007bff; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Volver al Index</a>
+</body>
+</html>
